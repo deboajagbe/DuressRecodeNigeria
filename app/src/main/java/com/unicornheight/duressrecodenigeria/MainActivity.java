@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (PasswordType() == 1) {
                     //Connect to Acesss
-                    url = "https://f3b874e8.ngrok.io/normal/";
+                    url = "https://young-refuge-24483.herokuapp.com/normal/";
                     new GetAccount().execute(uAccount);
                 } else if (PasswordType() == 2) {
-                    url = "https://f3b874e8.ngrok.io/duress/";
+                    url = "https://young-refuge-24483.herokuapp.com/duress/";
                     new GetAccount().execute(uAccount);
                 } else {
                     Toast.makeText(getApplicationContext(), "Wrong Credentials", Toast.LENGTH_SHORT).show();
