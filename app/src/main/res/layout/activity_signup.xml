@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/empty"
+    android:layout_height="match_parent"
+    tools:context="com.unicornheight.duressrecodenigeria.Signup">
+
+    <ImageView
+        android:id="@+id/topBar"
+        android:layout_marginTop="-15dp"
+        android:src="@drawable/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/accountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="16dp"
+        android:lines="3"
+        android:maxLength="75"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/accountNumber" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="16dp"
+        android:lines="3"
+        android:maxLength="75"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="50dp"
+        android:lines="3"
+        android:maxLength="75"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/password" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:lines="3"
+        android:maxLength="75"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/confirmpassword" />
+
+    <EditText
+        android:id="@+id/duresspassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:lines="3"
+        android:maxLength="75"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/duresspassword" />
+
+    <EditText
+        android:id="@+id/confirmduressPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        android:lines="3"
+        android:maxLength="75"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/confirmduresspassword" />
+
+    <ImageView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/signi"
+        android:onClick="LoadSignIn"
+        android:layout_below="@+id/password"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

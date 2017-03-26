@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recode</string>
+    <string name="accountNumber">Account Number</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="duresspassword">Duress Password</string>
+    <string name="confirmduresspassword">Confirm Duress Password</string>
+    <string name="error_mes">OOPS....!!! Having trouble fetching Data</string>
+    <string name="internet_fail">Internet Connection Problem... make sure you are connected and have access to internet</string>
+</resources>

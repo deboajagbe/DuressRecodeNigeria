@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/empty"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.unicornheight.duressrecodenigeria.MainActivity">
+
+    <ImageView
+        android:id="@+id/topBar"
+        android:layout_marginTop="-15dp"
+        android:src="@drawable/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_below="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/username" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/userName"
+        android:inputType="textPassword"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@drawable/customborder"
+        android:hint="@string/password" />
+
+    <ImageView
+        android:id="@+id/rememberPass"
+        android:layout_below="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/remberpass" />
+
+    <ImageView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/signin"
+        android:layout_below="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="52dp" />
+
+
+
+    <ImageView
+        android:id="@+id/forgetcred"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/middle"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/rememberPass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/signup"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:onClick="LoadSignUp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-18dp"
+        android:src="@drawable/bottom" />
+
+    <ProgressBar
+        android:id="@+id/lbProgress"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
